@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
+import Counter from './components/Counter';
+import HooksExample from './components/HooksExample';
 
 function App() {
   // State to store our todos
@@ -25,6 +27,12 @@ function App() {
     <div className="App">
       <div className="todo-container">
         <h1>My Todo List</h1>
+        
+        {/* Hooks Example Component */}
+        <HooksExample />
+        
+        {/* Counter Component */}
+        <Counter />
         
         {/* Input field for new todos */}
         <div className="input-container">
